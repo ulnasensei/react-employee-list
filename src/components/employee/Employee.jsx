@@ -13,7 +13,7 @@ const Employee = ({ employee }) => {
                 <Content>
                     <h5>{name}</h5>
                     <p>
-                        {age} years old <br /> <a mailto={email}>{email}</a>
+                        {age} years old <br /> <a href={"mailto:" + email}>{email}</a>
                     </p>
                 </Content>
             </Columns.Column>
