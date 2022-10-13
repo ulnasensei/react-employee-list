@@ -26,7 +26,7 @@ function App() {
 function splitter(arr, length = 5) {
     let result = [];
     let intermediateArray = [];
-    arr.reverse().map((el, index) => {
+    arr.reverse().forEach((el, index) => {
         intermediateArray.push(el);
 
         if (index % length === 0) {
